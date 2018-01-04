@@ -16,6 +16,7 @@ function showMessage(message){
 
 function registerListeners(){
 	$("#loginButton").click(loginClicked);
+	$("#resetButton").click(resetClicked);
 }
 
 function getUsername(){
@@ -57,6 +58,12 @@ function validateFields(){
 	}
 
 	return (username.length>0 && password.length>0);
+}
+
+var resetClicked = function(){
+	clearMessage();
+	$('[name=login-username]').val("");
+	$('[name=login-password]').val("");
 }
 
 var loginClicked = function(){
