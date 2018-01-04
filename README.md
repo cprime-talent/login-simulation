@@ -1,5 +1,7 @@
 # login-simultion
-Simulation of a website login for BDD exercises
+Simulation of a website login for BDD exercises.
+
+This can be accessed here https://radtac-craft.github.io/login-simultion/
 
 Here's what it does:
 - Has username, password field, a message, a reset and a login button
