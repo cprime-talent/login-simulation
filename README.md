@@ -2,7 +2,7 @@
 Simulation of a website login for BDD exercises
 
 Here's what it does:
-- Has username, password field, a message and a login button
+- Has username, password field, a message, a reset and a login button
 - If no details entered, shows unique message
 - If just username, shows unique message
 - If just password, shows unique message
