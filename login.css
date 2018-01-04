@@ -1,0 +1,68 @@
+.loginArea{
+	margin-top:150px;
+}
+
+.loginBox {
+	border: 1px solid #444444;
+	background-color: #4B77BE;
+	color: #F2F1EF;
+	border-radius: 6px;
+}
+
+.loginBox h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.loginBox .field{
+	border:1px solid #222222;
+	background-color: #fff;
+}
+
+.loginBox .username {
+	margin-top:30px;
+}
+
+.loginBox .password {
+	margin-top:30px;
+}
+
+.loginBox .message {
+	margin-top:20px;
+	text-align: center;
+	color: #C0392B;
+	height:25px;
+	font-size: 18px;
+}
+
+.loginBox .submit {
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align: center;
+}
+
+.loginBox .prompt {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.loginBox input{
+	width: 100%;
+	border:none;
+	border-bottom: 1px dashed #333;
+	line-height: 30px;
+	background:initial ;
+	color:#ddd;
+	font-size: 20px;
+}
+
+.loginBox input:focus {
+	border-color: #ddd;
+	outline: none;
+}
+
+.message {
+	margin-top:150px;
+	text-align: center;
+}
